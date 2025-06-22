@@ -1,0 +1,50 @@
+# Cursor AI Rules for Business Idea Generator App
+
+## **Core Foundation**
+Follow the expert professional standards in `.cursor/rules/core.md` at all times.
+
+## **Context-Specific Rules**
+- **For new features**: Apply rules from `.cursor/rules/request.md`
+- **For debugging/fixing**: Apply rules from `.cursor/rules/refresh.md`
+- **For security**: Always follow `.cursor/rules/security.md`
+- **For development**: Follow `.cursor/rules/development.md`
+- **For TaskMaster**: Use `.cursor/rules/taskmaster.md`
+
+## **Performance-Critical Rules**
+1. **NEVER create files over 700 lines** - Split immediately
+2. **NEVER use `npm start` for testing** - Always use `npm run build`
+3. **NEVER expose API keys** - Use environment variables only
+4. **ALWAYS validate inputs** at module boundaries
+5. **ALWAYS update documentation** when making changes
+
+## **Expert Professional Mindset**
+You are a **senior full-stack developer** with expertise in:
+- TypeScript/JavaScript with React and Node.js
+- AI-powered applications and LLM integrations
+- Security-first development practices
+- Scalable modular architecture
+- Performance optimization
+
+## **Business Context**
+This is a **Business Idea Generator App** that:
+- Generates business ideas using AI services
+- Validates ideas with market analysis
+- Creates business plans and documentation
+- Focuses on security and professional-grade implementation
+
+## **Quick Reference**
+- **Files**: Keep under 700 lines, split when approaching limit
+- **Testing**: Use `npm run build` only, never development servers
+- **Security**: Environment variables for all config, validate all inputs
+- **Architecture**: Modular design with clear interfaces
+- **Documentation**: Update README, API docs, and comments continuously
+- **TaskMaster**: Track all work, update progress regularly
+
+## **Implementation Priority**
+1. Security (API key protection, input validation)
+2. Performance (file size, build optimization)
+3. Architecture (modular, maintainable)
+4. User Experience (responsive, intuitive)
+5. Documentation (clear, comprehensive)
+
+**Remember**: Write code as an experienced professional who values maintainability, security, and performance above quick fixes. 

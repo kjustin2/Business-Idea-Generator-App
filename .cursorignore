@@ -1,0 +1,150 @@
+# Security - API Keys and Secrets
+**/.env
+**/.env.*
+!**/.env.example
+**/config/secrets.json
+**/config/keys.json
+**/*secret*
+**/*private*
+**/*key*
+**/*token*
+**/*.pem
+**/*.p12
+**/*.pfx
+**/*.key
+**/*.crt
+**/*.cert
+**/*.cer
+**/*.der
+**/*.jks
+**/*.keystore
+
+# Dependencies
+node_modules/
+.yarn/
+.npm/
+bower_components/
+
+# Build outputs
+build/
+dist/
+.next/
+out/
+.nuxt/
+.output/
+coverage/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+data/
+database/
+
+# Cache directories
+.cache/
+.temp/
+.tmp/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+error.log
+access.log
+combined.log
+pm2.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Other AI coding assistant folders
+.roo/
+.clinerules/
+.trae/
+.windsurf/
+.bolt/
+.v0/
+.lovable/
+
+# Backup files
+*.backup
+*.bak
+*.old
+*.orig
+*.tmp
+*.temp
+
+# Security scan results
+scan-results/
+security-report.json
+vulnerability-report.json
+
+# Certificates and keys
+ssl/
+certs/
+certificates/
+keys/
+
+# Large files that shouldn't be indexed
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.exe
+*.dmg
+*.pkg
+*.deb
+*.rpm
+
+# Binary files
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.svg
+*.webp
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+
+# Test coverage reports
+coverage/
+*.lcov
+test-results/
+playwright-report/ 
